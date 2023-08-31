@@ -28,5 +28,5 @@ def mysql_connection():
         connection.close
     except Exception as e:
         print(e)
-
+    return engine
 
