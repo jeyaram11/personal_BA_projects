@@ -14,8 +14,10 @@ def execute_xlsx(filename):
     table_name = credentials[connect_to]['table_name']
 
     #open excel file and transfrom into dataframe
+    #indexing can be removed using to_sql
     df = pd.read_excel(path,sheet_name=sheet)
     return df
 
 
 print(execute_xlsx('movies'))
+
