@@ -24,7 +24,7 @@ def mysql_connection():
                                                   database=database
                                                   ))
         connection = engine.connect()
-        print("successfully connected")
+        print("successfully connected to database")
         connection.close
     except Exception as e:
         print(str(e))
