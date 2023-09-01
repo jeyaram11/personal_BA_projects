@@ -1,7 +1,7 @@
 truncate_scripts:
   path: D:\personal_BA_projects\SQL\
 
-movies:
+top_movies:
   path: 'D:\Data\Movies.xlsx'
   sheet: MoviesTopRated
   table_name: top_movies
